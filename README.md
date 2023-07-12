@@ -7,7 +7,7 @@ https://canberrablockchain.com/
 This repository contain resources for the *Experience the Power of NFT Development* workshop.
 
 ## Before Workshop
-Before attending the workshop, please complete the steps at [Before Workshop](./BeforeWorkshop.md).
+Before attending the workshop, please complete [these steps](./BeforeWorkshop.md).
 
 ## Creating and Deploying NFT Smart Contract
 TODO
