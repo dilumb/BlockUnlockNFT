@@ -19,4 +19,4 @@ While the unique URL is sufficient to create a link between the on-blockchain NF
 
 We can URL of this object (i.e., https://github.com/dilumb/BlockUnlockNFT/blob/main/metadata.json) as the URI (Uniform Resource Identifier) of the banner asset we want to tokanise.
 
-If you want to use a different image, video, etc., as your asset to be tokanised, replace the `image` tag in the JSON with something related and update the URL.
+If you want to use a different image, video, etc., as your asset to be tokanised, replace the `image` tag in the JSON with something related and update the URL. Then the updated JSON file needs to be hosted somewhere reachable on the web, e.g., on your personal website. If you don't have one, an option is to create a GitHub personal page (see [Before the Workshop](./docs/BeforeWorkshop.md) page for more details.
