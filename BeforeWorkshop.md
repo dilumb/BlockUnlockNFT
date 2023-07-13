@@ -25,7 +25,7 @@ Next, we need to fund our account with test Ether (cryptocurrency used in [Ether
 <img src="./img/Testnet_selection.png" width="300" alt="Screenshot showing selected test network on Metamask" />
 
 2. Sepolia testnet has a couple of faucets (see https://ethereum.org/en/developers/docs/networks/#sepolia). Try one of the following faucets:
-   1. Sepolia PoW Faucet at https://sepolia-faucet.pk910.de/ -- *Just realised this faucet is down at the moment*
+   1. Sepolia PoW Faucet at https://sepolia-faucet.pk910.de/
        1. Copy your MetaMask `Account 1` address into the textbox that says `Please enter ETH address or ESN name`. Prove you are a human by completing the captcha.
        2. Next, click on the `Start Mining` button.
        3. Wait until you accumulate at least 0.05 ETH, which could take several minutes. Then click on the `Stop mining and claim reward button`.
