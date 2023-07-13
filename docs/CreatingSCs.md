@@ -36,15 +36,15 @@ First, let us test our smart contract on Remix JavaScript VM (virtual machine) t
 
 2. In the textbox next to the `Deploy` button where you see `string _name, string _symbol` enter a name and symbol for our token collection. You can enter it as a single string like `Block Unlock NFTs,BUN`. Or you can expand the textbox into 2 textboxes by clicking on the icon to the right and entering each value.
 
-<img src="./img/deploy.png" width="200" alt="Deploy inputs screenshot" />
+<img src="../img/deploy.png" width="200" alt="Deploy inputs screenshot" />
 
 3. Click on the `Deploy` button (or click on `transact` if you expanded the textbox). This should generate a transaction to deploy our contract. As seen in the following screenshot, you can check the transaction details and other status information, including any errors at the bottom of Remix (called *Remix Console* area). Click on the `^` icon next to the `Debug` button at the bottom left of the screen. Note values such as `status`, `contract address`, `transaction cost`, and `execution cost`. 
 
-<img src="./img/deploy_status.png" width="600" alt="Deploy transaction details screenshot" />
+<img src="../img/deploy_status.png" width="600" alt="Deploy transaction details screenshot" />
 
 4. As seen in the next figure, you can interact with the deployed contract using the functions under `Deployed Contracts`. Expand the user interface by clicking on the `>` symbol where it says `BLOCKUNLOCKNFTS AT 0X...`.
 
-<img src="./img/interact.png" width="300" alt="Interact options screenshot" />
+<img src="../img/interact.png" width="300" alt="Interact options screenshot" />
 
 Those buttons can be used to generate transactions to invoke respective functions on our NFT contract. For example, by clicking on the `name` and `symbol` buttons, you can see the token collection's name and symbol. 
 
@@ -65,7 +65,7 @@ Now that the BlockUnlockNFTs contract is working as expected, let us deploy it t
 
 In this workshop, we use MetaMask, a browser-based, easier-to-use, and secure way to connect to blockchain-based applications. Once the account is created, we will fund it using an already deployed faucet smart contract on the test network. We also use Etherscan.io - a blockchain explorer or search engine for Ethereum data - to check the transaction details.
 
-1. If MetaMask is not already installed or you haven't fund your account, please follow 2nd and 3rd the steps at [Before the Workshop](./docs/BeforeWorkshop.md). Also, make sure `Ethereum Sepolia testnet` is selected as the default network on MetaMask.
+1. If MetaMask is not already installed or you haven't fund your account, please follow 2nd and 3rd the steps at [Before the Workshop](../docs/BeforeWorkshop.md). Also, make sure `Ethereum Sepolia testnet` is selected as the default network on MetaMask.
 
 2. Return to the Remix IDE. In the `Deploy & run transactions` pane, change the Environment drop-down list to `Injected Provider - Metamask`. If you do not see MetaMask, you will need to reload Remix IDE. The first time, MetaMask will pop up asking you to connect with Remix. Make sure your address is set as the `Account`. Follow the instructions to complete linking MetaMask with Remix IDE.
 
