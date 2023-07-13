@@ -2,7 +2,7 @@
 
 First, we need to get our asset/item ready to be tokanised. In this example, we will create an NFT for the artwork used as the workshop advertising banner. There's a copy of the banner in [img/banner.jpeg](./img/banner.jpeg). We'll use its URL as a unique representation of our asset's location.
 
-<img src="./img/banner.jpeg" width="600" alt="Workshop banner" />
+<img src="../img/banner.jpeg" width="600" alt="Workshop banner" />
 
 While the unique URL is sufficient to create a link between the on-blockchain NFT and the banner, we might want to attach additional details/metadata to our asset. Following [ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) - the de-facto standard for representing ownership of non-fungible tokens (NFTs) in Ethereum - metadata extension guidelines, we represent the asset metadata using the following JSON (JavaScript Object Notation) object:
 
