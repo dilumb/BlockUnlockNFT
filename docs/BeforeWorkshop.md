@@ -3,12 +3,12 @@
 Before attending the workshop, please complete the following steps on your laptop and bring it with you. If you are unfamiliar with terms like "address" and "private key", follow along. We'll discuss them during the workshop.
 Please arrive 15 minutes before the workshop start time if you cannot complete any of the following steps.
 
-### 1. Test IDE
+## 1. Test IDE
 Please navigate to https://remix.ethereum.org/ and ensure it loads in your preferred browser without trouble.
 * We haven't had problems with the Firefox, Chrome, and Edge browsers.
 * If you are not familiar with IDEs (Integrated Development Environments), it's highly recommended to read the `Remix Basics` guide on the home page.
 
-### 2. Install Wallet and Create an Account
+## 2. Install Wallet and Create an Account
 Visit https://metamask.io/ and install Metamask browser extension. It works on Chrome, Firefox, Edge, Opera, and Brave browsers.
 1. Once installed, click on the `Get Started` button.
 2. A first-time user must create a new wallet. Click on the `Create a new wallet` button.
@@ -18,11 +18,11 @@ Visit https://metamask.io/ and install Metamask browser extension. It works on C
 6. Click `Copy to clipboard` to copy your address and see it on any text editor (you may have to move the mouse pointer to where it says `Account 1`). You can also get your address as a QR code.
 7. Notice that your current account balance is 0 ETH.
 
-### 3. Fund Your Account
+## 3. Fund Your Account
 Next, we need to fund our account with test Ether (cryptocurrency used in [Ethereum](https://ethereum.org/en/)). For this, we use a faucet smart contract that donates test Ether.
 1. Because we will mint our NFT on the [Sepolia testnet](https://sepolia.dev/), from the drop-down list at the top of MetaMask, select `Sepolia test network` (see below). If the Sepolia test network is not visible, click on `Show/hide test networks`. Then find the `Show/hide test networks` slider and set it to `ON`.
 
-<img src="./img/Testnet_selection.png" width="300" alt="Screenshot showing selected test network on Metamask" />
+<img src="../img/Testnet_selection.png" width="300" alt="Screenshot showing selected test network on Metamask" />
 
 2. Sepolia testnet has a couple of faucets (see https://ethereum.org/en/developers/docs/networks/#sepolia). Try one of the following faucets:
    1. Sepolia PoW Faucet at https://sepolia-faucet.pk910.de/
@@ -44,11 +44,11 @@ Next, we need to fund our account with test Ether (cryptocurrency used in [Ether
 
 As seen in the following figure, on Etherscan, you can see details of the transaction such as Transaction Hash, Status, From, To, and Value. For a few tens of seconds, the transaction Status may appear as Pending. Once the transaction is included in a block, the `Status` changes to `Success` and additional details such as Block, Timestamp, and Transaction Fee will appear. Click on the `Click to see More` link to see further details of the transaction.
 
-<img src="./img/TX_details.png" width="800" alt="Screenshot showing transaction details on etherscan.io" />
+<img src="../img/TX_details.png" width="800" alt="Screenshot showing transaction details on etherscan.io" />
 
 You should also see minted Ethere appearing on Metamask account. Congratulations, you're ready to begin Saturday's session.
 
-### 4. Place to Host Your Asset and its Metadata (Optional)
+## 4. Place to Host Your Asset and its Metadata (Optional)
 Follow these steps if you want to mint an NFT with your own asset(s). If you already have a personal website where you can host files that can be accessed from the Internet, skip this task.
 
 1. Create a https://github.com/ account, if you don't have a one.
