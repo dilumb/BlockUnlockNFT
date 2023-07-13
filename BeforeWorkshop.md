@@ -30,10 +30,12 @@ Next, we need to fund our account with test Ether (cryptocurrency used in [Ether
        2. Next, click on the `Start Mining` button.
        3. Wait until you accumulate at least 0.05 ETH, which could take several minutes. Then click on the `Stop mining and claim reward button`.
        4. Finally, click on the `Claim rewards` to claim your test Ether. This should create a new transaction to fund your account. Click on the transaction ID link, which will take you to https://etherscan.io.
+
    2. Infura Sepolia faucet at https://www.infura.io/faucet/sepolia
       1. Copy your MetaMask `Account 1` address into the textbox and click on `LOGIN AND RECEIVE ETH`.
       2. You will be required to create an Infura account. It is not a bad idea, because Infura is useful for blockchain developers as it provides connectivity and APIs to several public blockchains. You will get a popup with the title TRANSACTION SENT!.
       3. Click on the `VIEW ON BLOCK EXPLORER` link which will take you to https://etherscan.io.
+
    3. Alchemy Sepolia faucet at https://sepoliafaucet.com/
       1. Sign up for an account. Select `Ethereum` as your preferred network and `Learning` as the desired task. Skip the payment setup option.
       2. Go back to the homepage. Copy your MetaMask `Account 1` address into the textbox that says `Enter your wallet address (0x) or ...`. Prove you are a human by completing the captcha.
