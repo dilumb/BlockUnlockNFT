@@ -4,7 +4,7 @@ First, we need to get our asset/item ready to be tokanised. In this example, we 
 
 <img src="../img/banner.jpeg" width="600" alt="Workshop banner" />
 
-While the unique URL is sufficient to create a link between the on-blockchain NFT and the banner, we might want to attach additional details/metadata to our asset. Following [ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) - the de-facto standard for representing ownership of non-fungible tokens (NFTs) in Ethereum - metadata extension guidelines, we represent the asset metadata using the following JSON (JavaScript Object Notation) object:
+While the unique URL is sufficient to create a link between the on-blockchain NFT and the banner, we might want to attach additional details/metadata about our asset. Following [ERC-721](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) - the de-facto standard for representing ownership of non-fungible tokens (NFTs) in Ethereum - metadata extension guidelines, we represent the asset metadata using the following JSON (JavaScript Object Notation) object:
 
 ```json
 {
@@ -17,6 +17,8 @@ While the unique URL is sufficient to create a link between the on-blockchain NF
 }
 ```
 
-We can URL of this object (i.e., https://github.com/dilumb/BlockUnlockNFT/blob/main/metadata.json) as the URI (Uniform Resource Identifier) of the banner asset we want to tokanise.
+We can use this JSON object's URL (i.e., https://github.com/dilumb/BlockUnlockNFT/blob/main/metadata.json) as the URI (Uniform Resource Identifier) of the banner asset we want to tokanise.
 
-If you want to use a different image, video, etc., as your asset to be tokanised, replace the `image` tag in the JSON with something related and update the URL. Then the updated JSON file needs to be hosted somewhere reachable on the web, e.g., on your personal website. If you don't have one, an option is to create a GitHub personal page (see [Before the Workshop](./docs/BeforeWorkshop.md) page for more details).
+If you want to use a different image, video, etc., as your asset to be tokanised, replace the `image` tag in the JSON with something related and update the URL. You may also update the `name`, `description`, and file `size`. 
+
+Then the updated JSON file needs to be hosted somewhere reachable on the web, e.g., on your personal website. If you don't have one, an option is to create a GitHub personal page (see [Before the Workshop](./docs/BeforeWorkshop.md) page for more details).
